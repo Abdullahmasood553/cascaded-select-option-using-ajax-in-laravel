@@ -11,7 +11,10 @@
 </head>
 
 <body>
-    <div class="container">
+
+
+    <header class="text-center p-4 bg-dark text-white" style="font-size: 40px;">Dependent Select Box In Laravel</header>
+    <div class="container mt-4">
         <div class="row">
 
             <div class="col-md-6">
