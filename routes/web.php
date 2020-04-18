@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
 
-    Route::get('/home', 'HomeController@index')->name('home');
-    Route::get('charts', 'ChartController@index');
+
     Route::get('causes_cat', 'CauseController@index');
     Route::get('GetSubCatAgainstMainCatEdit/{id}', 'CauseController@GetSubCatAgainstMainCatEdit');

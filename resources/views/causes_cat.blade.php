@@ -24,7 +24,7 @@
                                 Main Category*</option>
                             @foreach($data as $categories)
                             <option  value="{{ $categories->id }}">
-                                {{ $categories->name }}</option>
+                                {{ ucfirst($categories->name) }}</option>
                             @endforeach
                         </select>
                     </div>

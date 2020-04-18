@@ -14,6 +14,6 @@ class CauseController extends Controller
 
 
     public function GetSubCatAgainstMainCatEdit($id){
-        echo json_encode(DB::table('sub_category')->where('cat_id', $id)->get());
+        echo json_encode(DB::table('sub_categories')->where('category_id', $id)->get());
     }
 }
